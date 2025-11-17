@@ -8,7 +8,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 URL = f"https://api.telegram.org/bot{TOKEN}/"
 
 offset = 0
-CHANNEL_ID = "@mychannel"  # замените на свой канал или ID
+CHANNEL_ID = "@https://t.me/saysparksp"  # замените на свой канал или ID
 
 # Загружаем 100000 фраз
 with open("quotes.json", "r", encoding="utf-8") as f:
